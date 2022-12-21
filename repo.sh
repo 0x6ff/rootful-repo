@@ -22,7 +22,7 @@ apt-ftparchive \
 		-o APT::FTPArchive::Release::Description="A parody of the ultrasn0w repo." \
 		release . > Release
 
-echo "[Repository] Signing Release using Amy's GPG Key..."
-gpg -abs -u 816C7A50B575162DC29288CD72339224580758CE -o Release.gpg Release
+echo "[Repository] Signing Release using Azreal's GPG Key..."
+gpg -abs -u DA2AF8284E071C1791102722BE2BED001FB080C2 -o Release.gpg Release
 
 echo "[Repository] Finished"
