@@ -244,3 +244,21 @@ Author: Saily Team <support.0xa1@qaq.wiki>
 dev: sailyteam
 Icon: file:///Applications/chromatic.app/AppIcon60x60@2x.png
 
+Package: ultrasn0w
+Architecture: iphoneos-arm
+Version: 1.2.4
+Section: Utilities
+Maintainer: Dev Team <blog@iphone-dev.org>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: ./pool/ultrasn0w_1.2.4.deb
+Size: 14148
+MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
+SHA1: 280dec151dc988120bcee6e20059de843a694813
+SHA256: d3a644c1e7a2eeceefd1691d1b0455306f70972f616aeb87c1d395018c27d7bd
+SHA512: f46130d472af44098dacdf78bb7b2831bd7ab84edee489d02e73689af45a2fe3caf52d139f8e146bac31f5b71357f6f9cf1d1a96d7cdcc503e85dfffb4edb9d0
+Homepage: http://ultrasn0w.com/
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Name: ultrasn0w
+Author: Dev Team <blog@iphone-dev.org>
+
