@@ -4,6 +4,7 @@
 This repository is an attempt of a remake of AFRIOS, as-in attempting to fix several package manager download and view issues. 
 
 Credits:
+
 [elihwyma for repo structure](https://github.com/elihwyma/)
 
 [saurik for Cydia](https://twitter.com/saurik)
