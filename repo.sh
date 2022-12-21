@@ -12,14 +12,14 @@ bzip2 -c9 Packages > Packages.bz2
 
 echo "[Repository] Generating Release..."
 apt-ftparchive \
-		-o APT::FTPArchive::Release::Origin="Sileo" \
-		-o APT::FTPArchive::Release::Label="Sileo" \
+		-o APT::FTPArchive::Release::Origin="Dev Team" \
+		-o APT::FTPArchive::Release::Label="Dev Team" \
 		-o APT::FTPArchive::Release::Suite="stable" \
-		-o APT::FTPArchive::Release::Version="2.0" \
+		-o APT::FTPArchive::Release::Version="3.0" \
 		-o APT::FTPArchive::Release::Codename="ios" \
 		-o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
 		-o APT::FTPArchive::Release::Components="main" \
-		-o APT::FTPArchive::Release::Description="Sileo for Checkra1n and Unc0ver" \
+		-o APT::FTPArchive::Release::Description="A parody of the ultrasn0w repo." \
 		release . > Release
 
 echo "[Repository] Signing Release using Amy's GPG Key..."
