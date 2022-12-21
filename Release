@@ -1,10 +1,10 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Sat, 09 Oct 2021 17:59:59 +0000
-Description: Sileo for Checkra1n and Unc0ver
-Label: Sileo
-Origin: Sileo
+Date: Wed, 21 Dec 2022, +0000
+Description: A parody of the ultrasn0w repo.
+Label: Dev Team
+Origin: Dev Team
 Suite: stable
 Version: 2.0
 MD5Sum:
