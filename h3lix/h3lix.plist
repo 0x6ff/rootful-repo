@@ -19,7 +19,7 @@
 				<key>bundle-identifier</key>
 				<string>org.tihmstar.h3lix</string>
 				<key>bundle-version</key>
-				<string>6</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
