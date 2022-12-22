@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Wed, 21 Dec 2022 20:26:09 +0000
+Date: Thu, 22 Dec 2022 11:50:12 +0000
 Description: A parody of the ultrasn0w repo.
 Label: Dev Team
 Origin: Dev Team
 Suite: stable
 Version: 3.0
 MD5Sum:
- 0e22177a90a944b8c1871f36c929b12a            12416 Packages
- 4f86b57ac34e26d70e94d078366f7e19             4458 Packages.bz2
- fe0c0039fd294446d0ceff1217633d5f             4144 Packages.xz
- fc11b5b8dd923881ae91267b2252782b             4181 Packages.zst
- 6ea9e1a4654958c29a10383de57a3c1c              202 Release
+ 725f4ecc95120629e7f952af1e9d42ed            13283 Packages
+ 6b099d199a0fad592b1231c9a9fd6a53             4646 Packages.bz2
+ eb354b5767611e451e6994949ebf24b4             4304 Packages.xz
+ 13046b1fddf7af1dd9984e922be6f1e9             4352 Packages.zst
+ a6bf7a1ad428f8c76ca02d42eb7f1bc5              202 Release
 SHA1:
- 4e95a84966d7ba80d85e1a0695d8dacfcd4148d8            12416 Packages
- 958c53829a90fb67c44b38feba600a9c8260a519             4458 Packages.bz2
- 3e2f5a175173110ac1e1395f00c2010c89a22966             4144 Packages.xz
- ddc156855a6e6e00ffa170bdbf6b011a12f95a5d             4181 Packages.zst
- 9e933df7d97edc354febe9a2671506daee04b4bd              202 Release
+ c87166d24bf8a4661ce8178eeaaec9e5df8539e0            13283 Packages
+ de954c4ea8216d07e66b91466b6685b439d65a7e             4646 Packages.bz2
+ 44fbcb55cbb6908d97297dedbcb3ceb57e203b68             4304 Packages.xz
+ 7f7b8e432a9b3c38e7ad0bd591dd69f67055b1ec             4352 Packages.zst
+ 958776611edf595adc402bd16c86294810159c6b              202 Release
 SHA256:
- ad01d5688b9995c5b7ca7387fbae923f3e755d6fa539def90ce9885b92f1339e            12416 Packages
- c127cbad6d89d9163bf4acf876e9e66866248329b47f31693f689b94bbd39491             4458 Packages.bz2
- ebc8dbaa4ff266cec33e9ccc1b43a6ee915d5198f02a22641e16706f8634c15f             4144 Packages.xz
- a74992e1902f01221e9eff6b33986af1b71b5e32870f8d83fc7f2c06dceffe8c             4181 Packages.zst
- 45df2dfe7db229661a7080f2994a253b85bb3584589f5e5ca2d2f0da2626ed3a              202 Release
+ 8920d89f485216ea15a6d1a7d8dd441112ff15779edb93ff193c7fd008a7e7c5            13283 Packages
+ 6032c175e10a7e92e47eab5e16d2e17a0b317f860f277dc9ebe491c2ad4ee4eb             4646 Packages.bz2
+ 5195126a0330268447c49712a019914f88e610046f0d2d92b57696ab076c7fb8             4304 Packages.xz
+ 2c1755d389ff70ec24b997c2e493c0c08f6eccd53bee4ca669f33858d341f0ea             4352 Packages.zst
+ ea1594dc650bdbbdb7368a4fb1cf2ca0cd703be67a771f4b930eedb11c6b4ffd              202 Release
 SHA512:
- 8a08a61cad0eede1ce2f92d561867046260a8dc2365e0e16fc6dd4bd67a0164d96a9c213fa4ea4aa334f6144cf7edac914c891cd1ba8db80f5cc2954fb4bdd9c            12416 Packages
- 5d754e16115c38eb87f634e70f6679ba6b4abb799d3341cea9b2c8a45fd1ce6f80280dff414bd5abebb22f4d52b2aa4cbb32cc3a460378c557fb085fb4bcaa9c             4458 Packages.bz2
- cc48c51e85ed49f6ea1cb5db57c04c9764813d1db9acdad17606d7cce7ad1f6d0ce8aa6f86d121fc371b94cacbf7c881a91d3e8f6f277cfb26123403b4d1013b             4144 Packages.xz
- f15f69ec6da0408198b8234a275e4e420c5c4043c4070955719b1c0c3721ee44fad61d304966937501ff3481d995106c636ab3e0fcf13cd19e85894b0defa933             4181 Packages.zst
- 42b820f4af4b743f29ab16cf556131e833e691c29bc99ff75defb3cb89772356626b462ee79f04c09c29b10dc96a227a52934b8045d6cf40769f7246fd01c1de              202 Release
+ a361458f46c5d41b384a2e52bd086d6abd68275d0fc3ae7890ec3a8cbbf1357e22e11caa24cf4e6e48ad90ff4bd0c2c21e7f5e5418d6d01055bfb78c4698e02d            13283 Packages
+ 20cb9f52d5c78eee0c80a451ce4e0aedae6fc572f3cd0bd5bb6133141999caafb08809c4609988cb3999d0aa24f37bfc37d2b6d2b2db82a9b7edb7c33f4e70e5             4646 Packages.bz2
+ b23d768113fb0cb3ba24210ecef0b70d991817e4b0b6b6515461d06a38ccc43aff92b66b80ac7a405768f2b657317bd497554292d7a1d5b4557269bc9ab28ad5             4304 Packages.xz
+ 01c4b996d91235c773dec1ceb587bb079733887a948e052dc7d01466b01232005934ff4a2905b2a6147e2f26dda83569933863ed3a30f625c7913eded38c4de7             4352 Packages.zst
+ 69bda2306857282f9765bb9eb76d9b998cba8bbf1f7b39ee53f1c667075a5311a11bcbfd133457e5a5c8ffda2f2c3c88024f5a05f6340e87bc41b22a9a510722              202 Release
