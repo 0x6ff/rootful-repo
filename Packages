@@ -41,6 +41,26 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
+Package: h.ryan.youtubereborn
+Architecture: iphoneos-arm
+Version: 4.0.9
+Section: Tweaks
+Maintainer: Lillie
+Installed-Size: 24876
+Provides: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig
+Replaces: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Filename: ./pool/h.ryan.youtubereborn_4.0.9_iphoneos-arm.deb
+Size: 10321954
+MD5sum: c708d502281397b0adf50ab671d5fd9f
+SHA1: 329d54badc70f26b1272368e25edc5c93f129eec
+SHA256: 5e112f9a6b151f86e5fcf8d5276dff3cdd18b84ba54a47834986fd3ff20458cd
+SHA512: b2b174abc8b9effd919d09f748ed9e10fc9ff3dca606b22926a86874adaede947b70ad55c6c85b2cda7a60119b9f10e33b0ab760011585103ecbec720df1ffe4
+Description: YouTube Customizer
+Name: YouTube Reborn
+Author: Lillie
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
