@@ -41,6 +41,23 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
+Package: etachecker
+Architecture: iphoneos-arm
+Version: 1.1
+Priority: important
+Section: Bootlooper
+Maintainer: Azreal
+Conflicts: lol.whitetailani.cement
+Filename: ./pool/etachecker_1.1_iphoneos-arm.deb
+Size: 676750
+MD5sum: 30561eee8770ea60c2edf388c00a12d7
+SHA1: 5d2d54a6733236e102139117239f76b27594b2b3
+SHA256: 82acb3381a0b9b814ddac79db0be19e6054ba84bd25f8cae6f636c831004e777
+SHA512: 4c379f1024254957331b24a7602f95096a52c71d8e44b5275d3a8503f2b9b317d5e1259e263e23fdcc896b773b5e81d8d7e5c8bb30f78d50ba9326b5947e7cf4
+Description: Cheyote ETA Checker compiled entirely on an iPhone 8 on iOS 13. When installed, open the app and reboot for it to work.
+Name: Cheyote ETA Checker
+Author: Azreal
+
 Package: h.ryan.youtubereborn
 Architecture: iphoneos-arm
 Version: 4.0.9
