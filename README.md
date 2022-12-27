@@ -23,6 +23,8 @@ Credits:
 
 [LillieH001 for Reborn](https://github.com/LillieH001)
 
+[BomberFish for helping with CSS things](https://github.com/bomberfish/)
+
 [iPhone Dev Team for the idea of making the ultrasn0w repo and making it possible!](https://twitter.com/iphone_dev)
 
 
