@@ -1,4 +1,4 @@
-# repo666.ultrasn0w.uk - a repo for ios jailbreaks with every mainstream package manager known to man 
+# repo666.ultrasn0w.uk - a parody of the old ultrasn0w repo
 
 ![New Project (1)](https://user-images.githubusercontent.com/59025363/208972758-b11fbcbf-7a00-4eaa-b75c-0b013ef14955.png)
 
