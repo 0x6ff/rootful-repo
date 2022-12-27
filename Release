@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Sun, 25 Dec 2022 10:38:17 +0000
+Date: Tue, 27 Dec 2022 17:52:28 +0000
 Description: A parody of the ultrasn0w repo.
 Label: Dev Team
 Origin: Dev Team
@@ -12,22 +12,22 @@ MD5Sum:
  69b014f8f3b1e86bf7a90abf3a95bfe5             5766 Packages.bz2
  f8bbf9089f6e17f5e4c312ec04c88dc5             5400 Packages.xz
  4a11830a7519f8a39a9b4fad3e151194             5500 Packages.zst
- a99c119707fb58d9425556ad5e95129b              202 Release
+ f66f56f3a547d6fee3351a803c509133              202 Release
 SHA1:
  51be622f8d426625e7306a6cb742b5c246bf5ad8            16211 Packages
  66c3175bd89fbdc0a49a1d441ff4ce7cae85bb96             5766 Packages.bz2
  4006d912914b55cd71cafb0ee8fd2bd10c9dfbfc             5400 Packages.xz
  fe1f88ce3985a85ccf90983814463052641a99e4             5500 Packages.zst
- 3ae3a3822e2ee1bd8178a423f4c379ae1d9d213c              202 Release
+ 1db8caa03778e2cb00211184e675ce5596be7c7a              202 Release
 SHA256:
  1aa80d920bd0a8d6770140ccf0167802c77cf3f818d5132c3bd6dd5d74a611b5            16211 Packages
  b4a1aae930d70a6a543d54c1b69a846aa7d3db9439d93608d8fd4b2053b02e11             5766 Packages.bz2
  f84f2f52fd7d61f73b78f34672605cfbfd1c522fe9daa37b92f2e8b5fdbc67a4             5400 Packages.xz
  1682590f450d244c552540f4fdc87929bbfbf10468a915e47dc0e169acb03f77             5500 Packages.zst
- 74dece0608310cce90d8a5c88777cc55e8e917bf53070705dabfc434d6104cbf              202 Release
+ d7506647c0d42142e640ea2d9060cfa2344cc7e99a4c281ee339e8b77829e8a9              202 Release
 SHA512:
  79dcfdccbc0d0d1593c596672c749f29d40657edeaf88d7cb7061e765a4929aaf0bda27ecdc2cd737f04e4e151fc347810938bacaefb0505dd821c30b78792a3            16211 Packages
  7dddefddb68eefdfcf6672989ae5dbc40c38f375ca4973df6be5bea87db1e94eac87bcdbf6f9b5f6402a89e61966797c19b8f3c7eba9a3831e866cc4a62493b9             5766 Packages.bz2
  944a2641561e65695fa77a17de0bc688b0a0073a2470a25f2b6841072852915d612cad9d87cce88dc0770c5e249610be9dff22308934146586750f14e6a15d6e             5400 Packages.xz
  e9917fcae2c5f30bf5030264db1346853ef20a79812f7cac99c0e46004606b97066dbb28f697bc29de41c26e1dcc1cbaba4c10b2a36c15f01fd772540b0c2754             5500 Packages.zst
- b2a6c12b18a0005e705157dd5b5e2e2c9417221715d9adef67243589d1701fa3455a9af5e0781105ff6d43cfffd18260e641c5ec8f89fadff3cbcd2bedfd4a44              202 Release
+ 8fb76cf7953879cdfa654c91ae1b1c1b959f6c634acf646ac6c94b5879305647dd2760557eec348a58724972f7a3d520f2a349573fe8b757b5b8afeed5ed5fa1              202 Release
