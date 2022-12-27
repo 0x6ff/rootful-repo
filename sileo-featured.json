@@ -1,1 +1,13 @@
-{"class":"FeaturedBannersView","itemSize":"{263, 148}","itemCornerRadius":10,"banners":[{"url":"https://repo-cdn.dynastic.co/404517642204872705.f8d974336e9f0d76ed9f964fa5cf1aca-750?size=750","title":"ShortLook","package":"co.dynastic.ios.tweak.shortlook","hideShadow":false},{"url":"https://repo-cdn.dynastic.co/261146443010539521.007581d1f4ad3d84f1dd74e75b3e9268-750?size=750","title":"Gesto for iOS 13/14","package":"com.blackhole.Gesto13","hideShadow":false}]}
+{
+	"class":"FeaturedBannersView",
+	"itemSize":"{263, 148}",
+	"itemCornerRadius":10,
+	"banners": [
+          {
+		"url": "https://kubadownload.com/site/assets/files/2972/youtube_reborn_tweak.jpg",
+		"title":"YouTube Reborn",
+		"package":"h.ryan.youtubereborn",
+		"hideShadow":false
+	  }
+  ]
+}
