@@ -68,18 +68,18 @@ Icon: file:///Applications/Cydia.app/Icon-60.png
 
 Package: etachecker
 Architecture: iphoneos-arm
-Version: 1.1
+Version: 1.2
 Priority: important
-Section: Bootlooper
+Section: Dangerous Tweaks
 Maintainer: Azreal
 Conflicts: lol.whitetailani.cement
-Filename: ./pool/etachecker_1.1_iphoneos-arm.deb
-Size: 676750
-MD5sum: 30561eee8770ea60c2edf388c00a12d7
-SHA1: 5d2d54a6733236e102139117239f76b27594b2b3
-SHA256: 82acb3381a0b9b814ddac79db0be19e6054ba84bd25f8cae6f636c831004e777
-SHA512: 4c379f1024254957331b24a7602f95096a52c71d8e44b5275d3a8503f2b9b317d5e1259e263e23fdcc896b773b5e81d8d7e5c8bb30f78d50ba9326b5947e7cf4
-Description: Cheyote ETA Checker compiled entirely on an iPhone 8 on iOS 13. When installed, open the app and reboot for it to work.
+Filename: ./pool/etachecker_1.2_iphoneos-arm.deb
+Size: 676770
+MD5sum: 77f26954e7000dc68a653007937d21a1
+SHA1: c0c76009cca66b308578e7902c4ccc641b1fd748
+SHA256: 6922dbc4a464ab6034a00f31c77dcf34833a0117898a282fd85f99b75b82532d
+SHA512: 01f58b9dea1a8414bc051b108203e3f4ee37415faec33fd1357dba8535f6aab5058c3bd7df5412a6969dcf28783e1ffe9961aa2f08a18698bb0f90d501035713
+Description: Cheyote ETA Checker compiled entirely on an iPhone 8 on iOS 13. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install.
 Name: Cheyote ETA Checker
 Author: Azreal
 
