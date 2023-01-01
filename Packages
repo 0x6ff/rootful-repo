@@ -155,6 +155,22 @@ Description: Setup.app on your home screen. Might break your fugly iCloud bypass
 Name: Setup
 Author: Apple
 
+Package: org.azreal.shortcuts
+Architecture: iphoneos-arm
+Version: 16.0
+Priority: important
+Section: Applications
+Maintainer: Azreal
+Filename: ./pool/org.azreal.shortcuts_16.0_iphoneos-arm.deb
+Size: 1016124
+MD5sum: c9a30a1a7e01bd1479896de9876a9085
+SHA1: 1fc9f9cd1c292ae8fc6a4b9c7fee93151e64170a
+SHA256: da1abc6d0f835e23edc4aef0d7053aabcf3c0b0d96dd2994cf8802362ba8c608
+SHA512: 4b614ae6270f20e2958eab14868b26348d4c8fc0526195af4caee0c092ea6ba12ffa06bc5d15d22d882f09e6390688ed23dbfedccd5676896c670529c726a3b7
+Description: Shortcuts on your home screen for any iOS version. Just for shits and giggles fr.
+Name: Shortcuts
+Author: Apple
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.1
