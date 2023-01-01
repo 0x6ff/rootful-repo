@@ -1,30 +1,94 @@
-.disable-hover {
-    pointer-events: none;
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI Variable', 'Segoe UI', 'Roboto Flex', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: #000;
+    background: #fff;
+    margin: 2%
 }
 
-.link-item {
-    list-style-type: none;
-    padding: 17px 15px;
-    display: block;
-    color: #337ab7 !important;
-    text-align: left;
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background: #000;
+    }
 }
 
-.link-item:hover {
-    border: 1px solid #ddd;
-    background-color: #f5f5f5;
+#rainbow,
+#rainbow:hover {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1)!important;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* IE10+/Edge */
+    -ms-user-select: none;
+    /* Standard */
+    user-select: none;
 }
 
-html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
-    background-color: #fff;
+h1 {
+    font-weight: 800;
 }
 
-html.can-touch .link-item:active{ /* disable hover effect when input is touch */
-    background-color: #f5f5f5;
+#rainbow:hover {
+    transform: scale(1.05);
+    transform-origin: top left;
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    background-size: 250% 250%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 8s ease infinite;
 }
 
-.fa {
-    font-size: 16px;
-    margin-left: 5px;
-    margin-right: 10px;
+code {
+    font-family: ui-monospace, 'SF Mono', Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Mono', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    padding: 2px 4px;
+    margin: 2px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 25%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+a {
+    color: rgba(70, 148, 207, 0.69);
+    font-weight: 500;
+}
+
+@media (prefers-reduced-motion) {
+    #rainbow:hover {
+        scale: 1;
+        transform: scale(1);
+        animation-duration: 12s;
+        background-size: 125% 125%;
+        transition-duration: 1s!important;
+    }
+}
+
+@media (prefers-contrast: more) {
+    a {
+        color: #0433FF;
+    }
+    @media (prefers-color-scheme: dark) {
+        a {
+            color: #758FFF;
+        }
+    }
+    #rainbow:hover {
+        animation: none;
+        background-image: none;
+        -webkit-background-clip: none;
+        background-clip: none;
+        -webkit-text-fill-color: inherit;
+    }
 }
