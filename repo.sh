@@ -10,8 +10,8 @@ bzip2 -c9 Packages > Packages.bz2
 
 echo "[Repository] Generating Release..."
 apt-ftparchive \
-		-o APT::FTPArchive::Release::Origin="iPhone Dev Team" \
-		-o APT::FTPArchive::Release::Label="iPhone Dev Team" \
+		-o APT::FTPArchive::Release::Origin="Dev Team" \
+		-o APT::FTPArchive::Release::Label="Dev Team" \
 		-o APT::FTPArchive::Release::Suite="stable" \
 		-o APT::FTPArchive::Release::Version="3.0" \
 		-o APT::FTPArchive::Release::Codename="ios" \

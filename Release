@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Fri, 13 Jan 2023 13:16:50 +0000
+Date: Fri, 13 Jan 2023 17:13:18 +0000
 Description: A parody of the old Dev Team repo which had ultrasn0w.
-Label: iPhone Dev Team
-Origin: iPhone Dev Team
+Label: Dev Team
+Origin: Dev Team
 Suite: stable
 Version: 3.0
 MD5Sum:
- c4322aed7eeb64dd0c82dacd01a7a989            18264 Packages
- db94ecf1b538814634755b9e574fe941             6250 Packages.bz2
- e8bb2e2bd6995adacab2b5a0d3074ded             5856 Packages.xz
- ea8638c5aaeea4ada04bf5bb46ae30cd             5957 Packages.zst
- fb61d7cfc1aa0bfe0480b686fed43e0b              239 Release
+ b01a33ac52ad4a42a250f5e0fe833881            20143 Packages
+ 896d75b9cf691012c5062341c811a526             6853 Packages.bz2
+ 41b32d37ef6c41d58ffd95bb93ae494d             6476 Packages.xz
+ 5987d0185f1caf194d01fb600437096a             6603 Packages.zst
+ 65008e1b26ecc3683fd321163ea937a8              225 Release
 SHA1:
- 42e0b87d2a2778eaee4e029ca1d10cb084f02605            18264 Packages
- a41d048416e73ec88e19c13c11bbf2c1d2bf1341             6250 Packages.bz2
- 16e23c5dbfa9d5645448d000720cfc47c8829f64             5856 Packages.xz
- a71eb2a705573be01b84b652e8fad23a65dd3165             5957 Packages.zst
- 3094f6e3664bf4f06c07ffdf9c3c5a083f1ad56e              239 Release
+ c81d82d9cb3bbdc9bb8bd481f31bc5b2d85e75cd            20143 Packages
+ 98857f98eef05f5ae5993c67ad8b2e94c2bd8cb4             6853 Packages.bz2
+ 8d9b56f72ade52714d1b175e01ac3a009166a15b             6476 Packages.xz
+ 1f904b7e4eb91eb86b7fb7cfbad3dbf0cf738b35             6603 Packages.zst
+ 961bae88c6cd77cce4dc7597860ed3f64a0b75d3              225 Release
 SHA256:
- 242eeedc5e39df89b196758fa3838ad5ff6f2fe9bb35366f5766b4ac2426aa82            18264 Packages
- 16b827dfcea6b689a790f2cbd7ceb996f3e6a923a9fd1ef19c08e090d336e97c             6250 Packages.bz2
- 8a09584b9dd216c11133ff7598315fc71d34f8060ff61999066011f68b481187             5856 Packages.xz
- 19dfa9d2b8977602b8f0dce4c51781e33578cb747f40035768106fd3712c5ca8             5957 Packages.zst
- ae7aa655d06ca30d58dd07f79bc4590c6e66d5a0ef643fa34fec93fd5a1eab63              239 Release
+ c2ad9e743546b736ba2f31b3f36c62b48780748c7a67185fff31ba64012dafab            20143 Packages
+ 8c43906f0a8cc5f5d1101c1a727910628fd3f7454a2f47d4bdd1a40a6c457997             6853 Packages.bz2
+ 3de97dc28c3c50ed0f19875fcaef1856b38802bffa613668dc0bbfa03ad212c4             6476 Packages.xz
+ cd48a697ffdb4c015769276b4963ecfed7ba2974567661f9124f73dffb7d3e54             6603 Packages.zst
+ 4be08d7f2332ec607d7f38ae3499b365e38eca0c14a01b892a2b715b0e845631              225 Release
 SHA512:
- 0887b08f1c162a870a5fbfb3632ad03e5e413a3d785787f43cac5e2502a96a7e7f2aa2da09cbbd6ea12e81072ca54832a705d104667a425178fbfe90e7ce4a5d            18264 Packages
- b69d2a9b97c2031da11b430109eed40571aeab0c45a9b676b302cbfc5d30002ed2c16e05798dddb58789804d63ba4cac3fbff278dcc27c7a1c28d76e29f4e823             6250 Packages.bz2
- 7c1ec2916ada3bb3d5995a12e10c9c53df85e5037f04ab8882460bdfa26725ce0a979b5b41588ba013044c57fe98cc8d67489e4c17572bb653e126d549bf0df7             5856 Packages.xz
- 077c9cf47d776d977d98c0a0ff3976030d0e932f97db341781f8e0bad014595aa3bf271f61e5aef853644325fc9d1fe462c3fed288311dc8813350c36a9d1736             5957 Packages.zst
- 2110ec2e2c1eceede4682e218fbc241be27ddcca63f4827d733ead054dd43192df78c701edef18115917b9c41dec4c537e8a3e6041adb47816b7aaefd80a8400              239 Release
+ 7f972f243064abb1fcf245096b483013d9017fd330799c03413674a5b3d1940a5bc2313f26533fa79761cfd4dbdddb2a3deaf7fc37440c2566b63cec3bf4d4a1            20143 Packages
+ 6dea7ed3aae861a30093ec68a94c516da94c108366dd10ce3c4df4d73b608c6ed4de3d365111212f458e15f616496248efba4072df5605986cb796aeea87dd8d             6853 Packages.bz2
+ bf1b4c5e89a9f04b5196af4105fc3f942f1639a7a94545ce4024aa051c43cc7d6d248b2c22a981e64c5c8a301f936b08f588d96de37339569d19c6859d2e8536             6476 Packages.xz
+ c1c6bbba75fb5cd94da01ae3cfb55834491b4771bdb650281e67776669e51778176735f9aad2ed32efba078d240c8212bba435d9c769eb39461d0000a729ea8f             6603 Packages.zst
+ 066cf75f9a2232f319d079a5d02273d29cf93aacb7f6d8fc8a661944bc8e032d28de82ef259d12e665c1a56d5ec2c93955878b0f353da8f652b776b99801d6ca              225 Release

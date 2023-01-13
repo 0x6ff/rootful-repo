@@ -16,6 +16,25 @@ Depiction: https://apptapp.me/repo/51/installer.html
 Icon: https://synnygr.dev/AppTapp/icon51.png
 Name: Installer
 
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.8.1
+Section: Apps
+Maintainer: PostBox Team <getpostboxapp@gmail.com>
+Filename: ./pool/PostBox-0.8.1-beta.deb
+Size: 5936224
+MD5sum: 533886f9a2ecc1aa13cb359c6767411a
+SHA1: 2a130f82ac02cb53956a70c3ea79eb0ea99e361a
+SHA256: 42bf35e5bae7f9ee0d7b4313588d118e8adfdd485642f9d67c436f10325dd97d
+SHA512: a9451d50ccdb4e87e79f3b91d554be7e647abe5516ff31b38fee38b2bf134989e811a5fe6d3c7d733dcd0fd3ace1a0b47c8ee312e6939cd762a9b2e642c97c4e
+Homepage: https://postbox.news
+Description: News, package lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://postbox.news/depicts/app/icon.png
+Depiction: https://postbox.news/depicts/app
+SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
 Package: cydia
 Architecture: iphoneos-arm
 Version: 1.1.36-3
@@ -332,6 +351,28 @@ Name: Sileo
 Author: Sileo Team <getsileoapp@gmail.com>
 Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.thebigboss.dismissprogress
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 150
+Depends: mobilesubstrate, firmware (>= 3.0), cydia (>= 1.1.19)
+Filename: ./pool/org.thebigboss.dessid_1.0.3.deb
+Size: 6030
+MD5sum: 23b3321aeab6d8efddf51918b013001a
+SHA1: f810aa48be46e6e2355bf075000312c41e7b9ee3
+SHA256: c8cff6ed98b629e0ecbd4138eb57f5aeba9a974e4d4d62edb2d6d2dff8e5854c
+SHA512: e1cd94677524fad9d64843345c85e57e7d203d798ad0234474b345d78482d06e8d47390e1070cab2198cc173ddb4de84d19c28b2f5eae79652ebc760ec41e276
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Description: Dismiss Cydia'a installation window without closing cydia.
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: PoomSmart <poomst@hotmail.com>
+Name: DismissProgress
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: poomst
 
 Package: wiki.qaq.chromatic
 Architecture: iphoneos-arm
