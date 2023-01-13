@@ -1,10 +1,10 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Sun, 01 Jan 2023 01:03:28 +0000
-Description: A parody of the ultrasn0w repo.
-Label: Dev Team
-Origin: Dev Team
+Date: Fri, 13 Jan 2023 13:16:50 +0000
+Description: A parody of the old Dev Team repo which had ultrasn0w.
+Label: iPhone Dev Team
+Origin: iPhone Dev Team
 Suite: stable
 Version: 3.0
 MD5Sum:
@@ -12,22 +12,22 @@ MD5Sum:
  db94ecf1b538814634755b9e574fe941             6250 Packages.bz2
  e8bb2e2bd6995adacab2b5a0d3074ded             5856 Packages.xz
  ea8638c5aaeea4ada04bf5bb46ae30cd             5957 Packages.zst
- 625e46f35bdc49c5b17ad894a061b961              202 Release
+ fb61d7cfc1aa0bfe0480b686fed43e0b              239 Release
 SHA1:
  42e0b87d2a2778eaee4e029ca1d10cb084f02605            18264 Packages
  a41d048416e73ec88e19c13c11bbf2c1d2bf1341             6250 Packages.bz2
  16e23c5dbfa9d5645448d000720cfc47c8829f64             5856 Packages.xz
  a71eb2a705573be01b84b652e8fad23a65dd3165             5957 Packages.zst
- 26c71dacf09b8892fa30727bb983571d0d1af297              202 Release
+ 3094f6e3664bf4f06c07ffdf9c3c5a083f1ad56e              239 Release
 SHA256:
  242eeedc5e39df89b196758fa3838ad5ff6f2fe9bb35366f5766b4ac2426aa82            18264 Packages
  16b827dfcea6b689a790f2cbd7ceb996f3e6a923a9fd1ef19c08e090d336e97c             6250 Packages.bz2
  8a09584b9dd216c11133ff7598315fc71d34f8060ff61999066011f68b481187             5856 Packages.xz
  19dfa9d2b8977602b8f0dce4c51781e33578cb747f40035768106fd3712c5ca8             5957 Packages.zst
- ce8c343b543eded80a44ea701ba4e5de0b10ec7a0ba4469913fff5fb185ee86b              202 Release
+ ae7aa655d06ca30d58dd07f79bc4590c6e66d5a0ef643fa34fec93fd5a1eab63              239 Release
 SHA512:
  0887b08f1c162a870a5fbfb3632ad03e5e413a3d785787f43cac5e2502a96a7e7f2aa2da09cbbd6ea12e81072ca54832a705d104667a425178fbfe90e7ce4a5d            18264 Packages
  b69d2a9b97c2031da11b430109eed40571aeab0c45a9b676b302cbfc5d30002ed2c16e05798dddb58789804d63ba4cac3fbff278dcc27c7a1c28d76e29f4e823             6250 Packages.bz2
  7c1ec2916ada3bb3d5995a12e10c9c53df85e5037f04ab8882460bdfa26725ce0a979b5b41588ba013044c57fe98cc8d67489e4c17572bb653e126d549bf0df7             5856 Packages.xz
  077c9cf47d776d977d98c0a0ff3976030d0e932f97db341781f8e0bad014595aa3bf271f61e5aef853644325fc9d1fe462c3fed288311dc8813350c36a9d1736             5957 Packages.zst
- 0913d0d259d4c4a25b316afe5209d6469c4c944d8782ea38b411f00bb1cb4e31463be35016290bd8bb6ccd43979190cca47beaecfa049fbec4655971dd13e7be              202 Release
+ 2110ec2e2c1eceede4682e218fbc241be27ddcca63f4827d733ead054dd43192df78c701edef18115917b9c41dec4c537e8a3e6041adb47816b7aaefd80a8400              239 Release
