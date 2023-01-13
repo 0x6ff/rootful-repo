@@ -190,6 +190,22 @@ Description: Shortcuts on your home screen for any iOS version. Just for shits a
 Name: Shortcuts
 Author: Apple
 
+Package: org.captinc.captappdecrypt
+Architecture: iphoneos-arm
+Version: 0.12~beta
+Section: Utilities
+Maintainer: Azreal
+Depends: zip, gawk, plistbuddy, flexdecrypt, com.cokepokes.appstoreplusplus
+Filename: ./pool/org.captinc.captappdecrypt_0.12~beta_iphoneos-arm.deb
+Size: 1950
+MD5sum: 8dbb3603a3c00c32f70cf87d143c4f41
+SHA1: 769b0d49bee329e3a77bf42a8a9ee13aba31a3a1
+SHA256: c4c77e20a68572a074261d410c30e4908bfe9f4ebee3bf48de2bfe7fd8389571
+SHA512: 920028f0450114d468c8ed789d2547c155d6feff8abf3a9a18bc402578466d299e6c057a4ed90463189894632e28715e1d1ac0866a057728eb1fea453c71501e
+Description: Best way to get a decrypted iPA. After installation, head to the AppStore, hold your profile picture and turn on Disable App Thinning. If issues are encountered, remove and reinstall the target app.
+Name: captappdecrypt
+Author: captinc
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.1
