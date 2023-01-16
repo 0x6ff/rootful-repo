@@ -85,6 +85,31 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-5
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 12.0), org.azreal.cydiaupdatesarch
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-5_iphoneos-arm.deb
+Size: 1333632
+MD5sum: adba6944177bc626d2b34acc7633659d
+SHA1: 4cf81214ffb44e6e0d66ed83b7987436bfd0c823
+SHA256: e9ec4e3bf8c2b60f2ae680cad15e5ece6057008dc0f610bc2b7f989b0a044047
+SHA512: 34b887ed5de2bb05714e9eb3c88edf15c0dd814283ea2d09b0c4adb46a0e92255e1b04ce21908caefcd0fe297be5f57a664f8a36b1737d181754b801cf8b6b83
+Description: graphical iPhone front-end for APT. Adds cydiaupdates architecture and repo to ensure latest patch is installed.
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
 Package: etachecker
 Architecture: iphoneos-arm
 Version: 1.2
@@ -156,6 +181,23 @@ SHA512: 56f6c866abaa01f86cf4ea29c00f2a6ad1b93b83eb4602ba44a91c6f3a09f2068ffdfbd3
 Description: Fake passcode for checkra1n on A11 devices running iOS 14+
 Name: FakePass
 Author: alexia <nyuszika7h@gmail.com>
+
+Package: org.azreal.cydiaupdatesarch
+Architecture: iphoneos-arm
+Version: 1
+Priority: important
+Section: Architectures
+Maintainer: Azreal
+Depends: org.coolstar.sileo, apt, dpkg
+Filename: ./pool/org.azreal.cydiaupdatesarch_1_iphoneos-arm.deb
+Size: 700
+MD5sum: da144b7fc14e6ad4bbdcc8bc65683e09
+SHA1: 16e444a107787fd9ec00a89e8e58eb7a414dfbfc
+SHA256: 0f0c7aae55b45cf91d71bf4f57ed6e3d34206d93765c8c1ef8286fa6bbe80204
+SHA512: d3d72e8373df820f2cfc1dbb62e1df784ae454432b4e04c9757d6d7488ea81a6301ea59ccd5f577aa90f1d2d115be7470d259c9a9ddbceeaad07ac3f037b6d8f
+Description: add "cydiaupdates" architecture to dpkg
+Name: cydiaupdatesarch
+Author: Azreal
 
 Package: org.azreal.setup
 Architecture: iphoneos-arm
