@@ -199,6 +199,38 @@ Description: add "cydiaupdates" architecture to dpkg
 Name: cydiaupdatesarch
 Author: Azreal
 
+Package: org.azreal.rfr
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Utilities
+Maintainer: Azreal
+Depends: bash, zsh, org.azreal.rootlessarch
+Filename: ./pool/org.azreal.rfr_0.1.0_iphoneos-arm.deb
+Size: 642
+MD5sum: 672d35f9d68e00b43b32c688f5f44276
+SHA1: a82941dc5ac63dfd0a8d08714bb4959dbbb4da67
+SHA256: 7283c255f083479d92eb9135e90553b76248c27d811cefe081b10e985511362e
+SHA512: 4cb768a55b7c34bc95a9db3324481dafe95ffbf55a1aaf7a326dede88168eb289f33984b7b95c143bb3fb248a4b5759da7df89454c903c5a709b0830d5efc9cc
+Description: symlink /var/jb to / for testing rootless packages
+Name: rootless on rootful
+Author: Azreal
+
+Package: org.azreal.rootlessarch
+Architecture: iphoneos-arm
+Version: 0.2.0
+Section: Architectures
+Maintainer: Azreal
+Depends: bash, zsh
+Filename: ./pool/org.azreal.rootlessarch_0.2.0_iphoneos-arm.deb
+Size: 612
+MD5sum: 3c1433730b2a412c5bcb0006f24d3b24
+SHA1: dfd504b7ed1fe850000b1dd15485036070d5d828
+SHA256: ad50030a1da2cf34ce583d82275dbc8703a234dd200dccee9f25a508f6bba8cf
+SHA512: c41d99bc9ab15acf063f10ee6bd536dfef2e4f55468cd6e2cf119e449ccd9a27a2a21c5ccd731a0186de74091bb326a4d5cd013b16a6ebefeb467169c2366303
+Description: half working utility to add rootless arch on iphoneos-arm jailbreaks
+Name: iphoneos-arm64
+Author: Azreal
+
 Package: org.azreal.setup
 Architecture: iphoneos-arm
 Version: 1.3
