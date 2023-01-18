@@ -147,6 +147,24 @@ Description: YouTube Customizer
 Name: YouTube Reborn
 Author: Lillie
 
+Package: launchctl
+Architecture: iphoneos-arm
+Version: 2:2.1.2
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Azreal <admin@ultrasn0w.uk>
+Installed-Size: 236
+Depends: libiosexec1 (>= 1.2.2)
+Filename: ./pool/launchctl-fixed.deb
+Size: 63092
+MD5sum: dee5d277ba73683d503d3f7026e97466
+SHA1: dd0adf29b7f41dc10a73a75ed7821a4feb1888c2
+SHA256: 523d8af63067059bc92e5dc0643833179f94372be2d02d93a54c688638653867
+SHA512: 208fb72b89cac1885d73ae1563c316f3713d54688acaf3f03af0e22eaa7de3572068dc6f9d00ede0b7056958db95a345a2b3209cc28f4b6655df55b3694957bf
+Description: fixed package that tells launchd what to do
+Author: Nick Chan <towinchenmi@gmail.com>
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
