@@ -1,0 +1,43 @@
+name: Create Packages and Release.gpg
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - 
+        name: Checkout repository
+        uses: actions/checkout@v2
+      -
+        name: Install build requirements
+        run: apt install zstd
+        run: apt install bzip2
+        run: apt install xz-utils
+        run: apt install gpg-suite
+        
+      -
+        name: Import GPG Keys
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - 
+        name: Build repo
+        run: |
+          bash repo.sh
+      -
+        name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: publish
+          git-config-name: GitHub Actions
+          git-config-email: github-actions[bot]@users.noreply.github.com
+          commit-message: Updates repo to ${{ steps.vars.outputs.sha_short }}
+          single-commit: true
