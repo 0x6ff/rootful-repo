@@ -16,10 +16,7 @@ jobs:
         uses: actions/checkout@v2
       -
         name: Install build requirements
-        run: apt install zstd
-        run: apt install bzip2
-        run: apt install xz-utils
-        run: apt install gpg-suite
+        run: apt install zstd bzip2 xz-utils gpg-suite
         
       -
         name: Import GPG Keys
