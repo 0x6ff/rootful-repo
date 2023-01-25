@@ -1,0 +1,19 @@
+name: check-dir
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - 
+        name: Checkout repository
+        uses: actions/checkout@v2
+      -
+        name: Check directory
+        run: ls
