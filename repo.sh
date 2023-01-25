@@ -1,6 +1,6 @@
 
 
-rm Packages Packages.bz2 Packages.xz Packages.zst Release 
+rm Packages Packages.bz2 Packages.xz Packages.zst Release Release.gpg
 
 echo "[Repository] Generating Packages..."
 apt-ftparchive packages ./pool > Packages
@@ -19,5 +19,8 @@ apt-ftparchive \
 		-o APT::FTPArchive::Release::Components="main" \
 		-o APT::FTPArchive::Release::Description="A parody of the old Dev Team repo which had ultrasn0w." \
 		release . > Release
+
+echo "[Repository] Signing Release using Amy's GPG Key..."
+gpg -abs -u CF54D55308002E111D67927C7986FCBCA185214F -o Release.gpg Release
 
 echo "[Repository] Finished"

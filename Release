@@ -1,0 +1,33 @@
+Architectures: iphoneos-arm
+Codename: ios
+Components: main
+Date: Wed, 25 Jan 2023 17:54:50 +0000
+Description: A parody of the old Dev Team repo which had ultrasn0w.
+Label: Dev Team
+Origin: Dev Team
+Suite: stable
+Version: 3.0
+MD5Sum:
+ f16c73c3aa2d8898e449ec19510920ec            24225 Packages
+ 14c4f88c149a68a67be9ee35f5dda7d1             8070 Packages.bz2
+ 5587bcd4c7b8d29ba7101374192ba57b             7692 Packages.xz
+ 120adef2b96f8246374e0f4d73b1c08c             7876 Packages.zst
+ 4557f9b62c9dcd9f8acdf3f31efc5ace              225 Release
+SHA1:
+ b56f3b2368d7c8947b87716a72bf1ca767e3ee17            24225 Packages
+ 61c342f7a12425ea82e1a9a6c8576c12bfaa49e5             8070 Packages.bz2
+ 039d297e51f5b175274b9c1be683129dcfdab45f             7692 Packages.xz
+ e4e85ef93fc761c687af710d5c3cc3791eaf3cc2             7876 Packages.zst
+ 1ac997f2aaa983d5bedcf8ee65a84622fbf4e41c              225 Release
+SHA256:
+ d27731aa6ea6145e19ae9c9e2f6148473b108c6099cc34c009cdf51c92197824            24225 Packages
+ 38f4bf9891344cacee0ec7ad8928fecbd4a45b0770050c517f91d2502978fc0f             8070 Packages.bz2
+ cceec3f08d1a004da09bd0103e2c52cbb393032945df02e93a75bf172e7dd7c5             7692 Packages.xz
+ e7441da94e8cbe11a01d5bb19d4c820fc44d797e95b1b6eb2f814e109c487d38             7876 Packages.zst
+ 2bd3d87b21fc8d6c07bc4a5848bfd13ff91f419af9fd97ef986ea6e27361a18d              225 Release
+SHA512:
+ 1427005dfdb5dced36ba9249079a05f8fb1ded699b72adcb0299e692102122262e6e84b1623f4022ac5096c6a925304fcb31dda48b1bac8d521cc5923fc7144e            24225 Packages
+ 7045ad04a04b4eed773e94e7108858beb9f15fb855428077a4e76a46e7a294f92af29a363f119de2299e96691adb89630e3cf881920676b86f00ba5694c271b9             8070 Packages.bz2
+ e1c07c75e789907089a5e3a8c8b24676909637fbf3734cdb5f02785583cd3f8138664e8940db05bed931d970569e3d2e154b75e640c828918a771de62d70fc08             7692 Packages.xz
+ 41d548f71c05adcd170454e7e8651e68a4a80ce1371d7d5b78002071984d2f5ae09defa10432807c28cf25e27149d14d434b027c1fd87adba4024769fd091f1a             7876 Packages.zst
+ 75cc1b7ff2d15d5be6ef32098014a73635436855d7bf973d36bf94c4a2cc2b4a7e96091627ef0ab2368a23b4f6236de3f7a0f5b8d8e16df843449294763517b9              225 Release
