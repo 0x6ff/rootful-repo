@@ -36,7 +36,7 @@ jobs:
         with:
           emit_telemetry: false
         # GitHub token
-          token: ${{ token.github }}
+          token: ${{ secrets.TOKEN_GITHUB }}
           timeout: 600000
           error_count: 10
           reporting_interval: 5000
