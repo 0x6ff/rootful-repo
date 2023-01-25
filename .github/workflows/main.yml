@@ -5,11 +5,12 @@ on:
     branches:
       - gh-pages
 
-permissions: read-all|write-all
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
