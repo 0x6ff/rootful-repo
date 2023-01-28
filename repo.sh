@@ -23,6 +23,6 @@ apt-ftparchive \
 		release . > Release
 
 echo "[Repository] Signing Release using Azreal's GPG Key..."
-gpg -abs -u CF54D55308002E111D67927C7986FCBCA185214F -o Release.gpg Release
+gpg -abs -u 3CE1F7C9015A9450D6D6906004AFD16F1DE3C455 -o Release.gpg Release
 
 echo "[Repository] Finished"
