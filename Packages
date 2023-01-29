@@ -1,3 +1,18 @@
+Package: com.thenatis.vivacity
+Architecture: iphoneos-arm
+Version: 0.2
+Section: Themes
+Maintainer: Thenatis
+Filename: ./pool/com.thenatis.vivacity_0.2_iphoneos-arm.deb
+Size: 1530280
+MD5sum: aa17b60851b76bdd9be82536041aabaa
+SHA1: bbcdd7cd16d848d70374962d16f41ee9e1d97972
+SHA256: 5f1ba6a6bad8bfc8d1bb4ac74a599292a7d372bef456d1383c53001c4c1a1967
+SHA512: 7cf721b0a2893cf15447bef910bd609618f6d20a030c993cc7e8086e7d385af4567cf0a8186a640bd08c24cd4e03db35a90effdff6051c53ffefb7fab9647b89
+Description: A Vibrant Theme to Light up Your Device!
+Name: Vivacity
+Author: Thenatis
+
 Package: cydia
 Architecture: iphoneos-arm
 Version: 1.1.36-3
