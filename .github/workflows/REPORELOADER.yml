@@ -3,7 +3,7 @@ on:
     branches:
       - gh-pages
   schedule:
-    - cron: "*/1 * * * *" # every 1 minute
+    - cron: "*/600 * * * *" # every 1 minute
    
     
 name: Repo
@@ -20,7 +20,6 @@ jobs:
       - name: Install dependencies with APT
         run: |
           sudo apt install xz-utils bzip2 zstd
-          git stash
           
       - name: Import GPG
         run: |
