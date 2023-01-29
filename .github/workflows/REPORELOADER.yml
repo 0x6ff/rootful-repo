@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */24 * * *" # every 24 hours
+    - cron: "*/1 * * * *" # every 1 minute
     
 name: Repo
 jobs:
