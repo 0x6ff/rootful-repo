@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */24 * * *" # every 24 hours
+    - cron: "*/1 * * * *" # every minute
     
 name: Repo
 jobs:
@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies with APT
         run: |
           sudo apt install xz-utils bzip2 zstd
+          git stash
           
       - name: Import GPG
         run: |
