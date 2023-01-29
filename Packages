@@ -1,0 +1,465 @@
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-3
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-3_iphoneos-arm.deb
+Size: 1242528
+MD5sum: f55218a68a1f0ac9966bd40d8cc5ee67
+SHA1: 6f175ddec364c843427ac50372a57bf36d79b353
+SHA256: 340a1b8ee2048f24ef50ba89cd405e205721180ab2f87f45c333640092d3c3ac
+SHA512: 6effca68161fc518ba26d27a42f5cc489b072a0183c080d8545cd99f3cbe0eb6737f0c4ac559406dafb52b92fdf1dcebd652107515454758b5076b20a6e6363d
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-4
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-4_iphoneos-arm.deb
+Size: 1333614
+MD5sum: 811c1642f40c858adbc2e1eada205eb7
+SHA1: 78d6f2b2daabff270daa28ad60c4ca751508bd90
+SHA256: 49790811ed5bf00dc09de5ffb8e34f7ea2967fca498d8dda1f4a4752fdf2c53f
+SHA512: ac469e61e0aad6c168b2d451211f31720120091206c0d42459091a293ea3a4fde9ae163a864547e9aedca07ebeccd42e9c83d48de03a8abf8b2628f3ec7e72f1
+Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-5
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 12.0), org.azreal.cydiaupdatesarch
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-5_iphoneos-arm.deb
+Size: 1333632
+MD5sum: adba6944177bc626d2b34acc7633659d
+SHA1: 4cf81214ffb44e6e0d66ed83b7987436bfd0c823
+SHA256: e9ec4e3bf8c2b60f2ae680cad15e5ece6057008dc0f610bc2b7f989b0a044047
+SHA512: 34b887ed5de2bb05714e9eb3c88edf15c0dd814283ea2d09b0c4adb46a0e92255e1b04ce21908caefcd0fe297be5f57a664f8a36b1737d181754b801cf8b6b83
+Description: graphical iPhone front-end for APT. Adds cydiaupdates architecture and repo to ensure latest patch is installed.
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: etachecker
+Architecture: iphoneos-arm
+Version: 1.2
+Priority: important
+Section: Dangerous Tweaks
+Maintainer: Azreal
+Conflicts: lol.whitetailani.cement
+Filename: ./pool/etachecker_1.2_iphoneos-arm.deb
+Size: 676770
+MD5sum: 77f26954e7000dc68a653007937d21a1
+SHA1: c0c76009cca66b308578e7902c4ccc641b1fd748
+SHA256: 6922dbc4a464ab6034a00f31c77dcf34833a0117898a282fd85f99b75b82532d
+SHA512: 01f58b9dea1a8414bc051b108203e3f4ee37415faec33fd1357dba8535f6aab5058c3bd7df5412a6969dcf28783e1ffe9961aa2f08a18698bb0f90d501035713
+Description: Cheyote ETA Checker compiled entirely on an iPhone 8 on iOS 13. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install.
+Name: Cheyote ETA Checker
+Author: Azreal
+
+Package: h.ryan.youtubereborn
+Architecture: iphoneos-arm
+Version: 4.0.9
+Section: Tweaks
+Maintainer: Lillie
+Installed-Size: 24876
+Provides: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig
+Replaces: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Filename: ./pool/h.ryan.youtubereborn_4.0.9_iphoneos-arm.deb
+Size: 10321954
+MD5sum: c708d502281397b0adf50ab671d5fd9f
+SHA1: 329d54badc70f26b1272368e25edc5c93f129eec
+SHA256: 5e112f9a6b151f86e5fcf8d5276dff3cdd18b84ba54a47834986fd3ff20458cd
+SHA512: b2b174abc8b9effd919d09f748ed9e10fc9ff3dca606b22926a86874adaede947b70ad55c6c85b2cda7a60119b9f10e33b0ab760011585103ecbec720df1ffe4
+Description: YouTube Customizer
+Name: YouTube Reborn
+Author: Lillie
+
+Package: launchctl
+Architecture: iphoneos-arm
+Version: 2:2.1.2
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Azreal <admin@ultrasn0w.uk>
+Installed-Size: 236
+Depends: libiosexec1 (>= 1.2.2)
+Filename: ./pool/launchctl-fixed.deb
+Size: 63092
+MD5sum: dee5d277ba73683d503d3f7026e97466
+SHA1: dd0adf29b7f41dc10a73a75ed7821a4feb1888c2
+SHA256: 523d8af63067059bc92e5dc0643833179f94372be2d02d93a54c688638653867
+SHA512: 208fb72b89cac1885d73ae1563c316f3713d54688acaf3f03af0e22eaa7de3572068dc6f9d00ede0b7056958db95a345a2b3209cc28f4b6655df55b3694957bf
+Description: fixed package that tells launchd what to do
+Author: Nick Chan <towinchenmi@gmail.com>
+
+Package: libzstd1
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Libraries
+Maintainer: Aarnav Tale <aarnav@tale.me>
+Installed-Size: 1192
+Depends: lz4, lzma
+Filename: ./pool/libzstd1_1.5.0_iphoneos-arm.deb
+Size: 304812
+MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
+SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
+SHA256: 8bddfd21ec9e5ce343c3b39281b2b9281a84c8a48f95eb50659d627fdc37fa0a
+SHA512: e0350f38f6120ee34bf570660eabe2aaa84fdbd87b9611213d4f93149c495bd17dee8c852be097ee509ce8d4f7bf50b6b45bf58672f93cfae3cd493c376517ae
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Tweaks
+Maintainer: alexia <nyuszika7h@gmail.com>
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Filename: ./pool/net.cadoth.fakepass_0.1.0_iphoneos-arm.deb
+Size: 17256
+MD5sum: 5409ecefbf275dbd31e7f3e16ce4b3a8
+SHA1: 98359c94e138063aed14934d2887f021b1b3ee84
+SHA256: 4355c7d0cebc61e2cf2ed311566071faa05f170a37415b9a7d2dc08486fce2cc
+SHA512: 56f6c866abaa01f86cf4ea29c00f2a6ad1b93b83eb4602ba44a91c6f3a09f2068ffdfbd34380bdeea022146f195ed8c3bb0e0e13b447c3219126de55bbc1c27b
+Description: Fake passcode for checkra1n on A11 devices running iOS 14+
+Name: FakePass
+Author: alexia <nyuszika7h@gmail.com>
+
+Package: org.azreal.cydiaupdatesarch
+Architecture: iphoneos-arm
+Version: 1
+Priority: important
+Section: Architectures
+Maintainer: Azreal
+Depends: org.coolstar.sileo, apt, dpkg
+Filename: ./pool/org.azreal.cydiaupdatesarch_1_iphoneos-arm.deb
+Size: 700
+MD5sum: da144b7fc14e6ad4bbdcc8bc65683e09
+SHA1: 16e444a107787fd9ec00a89e8e58eb7a414dfbfc
+SHA256: 0f0c7aae55b45cf91d71bf4f57ed6e3d34206d93765c8c1ef8286fa6bbe80204
+SHA512: d3d72e8373df820f2cfc1dbb62e1df784ae454432b4e04c9757d6d7488ea81a6301ea59ccd5f577aa90f1d2d115be7470d259c9a9ddbceeaad07ac3f037b6d8f
+Description: add "cydiaupdates" architecture to dpkg
+Name: cydiaupdatesarch
+Author: Azreal
+
+Package: org.azreal.rfr
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Utilities
+Maintainer: Azreal
+Depends: bash, zsh, org.azreal.rootlessarch
+Filename: ./pool/org.azreal.rfr_0.1.0_iphoneos-arm.deb
+Size: 642
+MD5sum: 672d35f9d68e00b43b32c688f5f44276
+SHA1: a82941dc5ac63dfd0a8d08714bb4959dbbb4da67
+SHA256: 7283c255f083479d92eb9135e90553b76248c27d811cefe081b10e985511362e
+SHA512: 4cb768a55b7c34bc95a9db3324481dafe95ffbf55a1aaf7a326dede88168eb289f33984b7b95c143bb3fb248a4b5759da7df89454c903c5a709b0830d5efc9cc
+Description: symlink /var/jb to / for testing rootless packages
+Name: rootless on rootful
+Author: Azreal
+
+Package: org.azreal.rootlessarch
+Architecture: iphoneos-arm
+Version: 0.2.0
+Section: Architectures
+Maintainer: Azreal
+Depends: bash, zsh
+Filename: ./pool/org.azreal.rootlessarch_0.2.0_iphoneos-arm.deb
+Size: 612
+MD5sum: 3c1433730b2a412c5bcb0006f24d3b24
+SHA1: dfd504b7ed1fe850000b1dd15485036070d5d828
+SHA256: ad50030a1da2cf34ce583d82275dbc8703a234dd200dccee9f25a508f6bba8cf
+SHA512: c41d99bc9ab15acf063f10ee6bd536dfef2e4f55468cd6e2cf119e449ccd9a27a2a21c5ccd731a0186de74091bb326a4d5cd013b16a6ebefeb467169c2366303
+Description: half working utility to add rootless arch on iphoneos-arm jailbreaks
+Name: iphoneos-arm64
+Author: Azreal
+
+Package: org.azreal.setup
+Architecture: iphoneos-arm
+Version: 1.3
+Priority: optional
+Section: Applications
+Maintainer: Azreal
+Pre-Depends: firmware (>=13.5)
+Filename: ./pool/org.azreal.setup_1.3_iphoneos-arm.deb
+Size: 20573178
+MD5sum: aa680c26b988597df1cef0c6f151d197
+SHA1: 94f520fadaa4a59cf1f9b904417b5ed29e8c266e
+SHA256: b853878278bcdd1636a535613cd5dd86f95a6c440c16558967515eb24d2584a8
+SHA512: 253bb9e5ba04bf1000e00cc842f9f8d6f062b85d2bb2fb2c9d0642542b511c9927558d046bf2ec9dd61efe78c9ac6e5c60e0da9b995b82f42253da66c1c4d472
+Description: Setup.app on your home screen. Might break your fugly iCloud bypass, who knows.
+Name: Setup
+Author: Apple
+
+Package: org.azreal.shortcuts
+Architecture: iphoneos-arm
+Version: 16.0
+Priority: important
+Section: Applications
+Maintainer: Azreal
+Filename: ./pool/org.azreal.shortcuts_16.0_iphoneos-arm.deb
+Size: 1016124
+MD5sum: c9a30a1a7e01bd1479896de9876a9085
+SHA1: 1fc9f9cd1c292ae8fc6a4b9c7fee93151e64170a
+SHA256: da1abc6d0f835e23edc4aef0d7053aabcf3c0b0d96dd2994cf8802362ba8c608
+SHA512: 4b614ae6270f20e2958eab14868b26348d4c8fc0526195af4caee0c092ea6ba12ffa06bc5d15d22d882f09e6390688ed23dbfedccd5676896c670529c726a3b7
+Description: Shortcuts on your home screen for any iOS version. Just for shits and giggles fr.
+Name: Shortcuts
+Author: Apple
+
+Package: org.captinc.captappdecrypt
+Architecture: iphoneos-arm
+Version: 0.12~beta
+Section: Utilities
+Maintainer: Azreal
+Depends: zip, gawk, plistbuddy, flexdecrypt, com.cokepokes.appstoreplusplus
+Filename: ./pool/org.captinc.captappdecrypt_0.12~beta_iphoneos-arm.deb
+Size: 1950
+MD5sum: 8dbb3603a3c00c32f70cf87d143c4f41
+SHA1: 769b0d49bee329e3a77bf42a8a9ee13aba31a3a1
+SHA256: c4c77e20a68572a074261d410c30e4908bfe9f4ebee3bf48de2bfe7fd8389571
+SHA512: 920028f0450114d468c8ed789d2547c155d6feff8abf3a9a18bc402578466d299e6c057a4ed90463189894632e28715e1d1ac0866a057728eb1fea453c71501e
+Description: Best way to get a decrypted iPA. After installation, head to the AppStore, hold your profile picture and turn on Disable App Thinning. If issues are encountered, remove and reinstall the target app.
+Name: captappdecrypt
+Author: captinc
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
+Size: 2198572
+MD5sum: 233bf16cf4ac47351c946c29cfa78230
+SHA1: 379b9b2d806e79638be6db315172a3a57c4cb016
+SHA256: 02d61d4dbd645f881774e3e30cbcf89e06d384025d15c3f599290008b2e4ae94
+SHA512: 3f8156b115c266561aba6caca87eade803fb74d26946e6ec4a37c8bd40739a2d957cba3144b8f681d36301b463ae3d8a6fe3d93f9cd105c780935e5bde9ee8aa
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.2
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
+Size: 2198724
+MD5sum: e7b6c93a18820f4efe880d758ed56e13
+SHA1: 1eb14dddb9aab6d4a3497c6ac294918789230abb
+SHA256: aced42ef80bff295f7e227ec76e322d5a2083ded0c2d7400ce8393ec3d7932dc
+SHA512: 44cef69e0b54c177535c08f9212ec2ed40e114aed837615e5ef35d316552d42ac222a1d1b1fddc6ffda24f23a4baaf55aa24f8a9986aad5772410401a5e45b92
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.3
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
+Size: 2199780
+MD5sum: 70a60e134dd1ca6e69913131e89c03df
+SHA1: ff18b87bb21da28929880504819e7737697c1129
+SHA256: e2daff014a72766d51391a1bf1185406163fa500bad149c68504708aab14c43a
+SHA512: cf5044a02420c66d4105c0548218bc3667dbe6a25ed70d1798bf52e27a63e35eb67b5d1fec9b9b698191a16b460e0f49c5bf4255ab4222bea6832b06f8f907b7
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.4-1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
+Size: 2008584
+MD5sum: fa993ceea75b6891f5d02c73536e88e1
+SHA1: 3e3d5e29aab285f19c59dcdac2d500558918dd7b
+SHA256: cf8c9eadb737b9b2614fa1c85db1fb837d2a877966265ad9bfaee3dcdfd4efa1
+SHA512: 0a52cf57584e2dab1553d183e17d91d714baa1b2a609d659f7a234093c4b1c0691c56a1f167202abd23d1cec5d93e2d832374550940d66961c454c7e7584482a
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.4
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.4_iphoneos-arm.deb
+Size: 2004692
+MD5sum: 0d3b86d1cacfa582878d3a95e5d0e853
+SHA1: 78b1f61c42b9afc705e81c5444f6fd4aaa9a520f
+SHA256: ca9c4a6f3c21921f34e135191b85c6564a7822728257dbe583eb745ffdc33ab9
+SHA512: 9b3b2ad321de2fc509aec36cccbff01bc149b81a79037557b0f9fa19a5f26334b0ba8e0a6900103b378fa55c3888d94a7910802a53d93407d499df5b9a5d55cd
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.5
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
+Size: 2013728
+MD5sum: 67fa3dce5d612a619ad945f47be737d3
+SHA1: e36ad1a374effadb081cb0e62aacb616b420e6fd
+SHA256: ccc9be922855c4b4fae085d7652391a99061f9c9ba34940b88f5d9c0df1a8971
+SHA512: 0f41a7414ceb80c16579b1cc30597855a23caf29b9fe1b785404a9bb4ffb33e13f5ba31f78a9b64497c3ba6608010fe2ece10bc3fda593024b287bf8cde57a2e
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.6_iphoneos-arm.deb
+Size: 2006476
+MD5sum: 9c6d562f5d3c097ce5450fad85cf9574
+SHA1: de402f69af4bbd255c4ee4a87a1d16188cfbe193
+SHA256: 21facaf703f83b930391040edbe327f3c0d8730b31c3962d974aefee421c8e0d
+SHA512: df5f602f772fcccf0789de0adafcd90142337e3a3e6d0c5802a485ebda1cd231e984232c9d18c88176ef712eb385095a790e038bd62052e484594ccf79b7a61a
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2_iphoneos-arm.deb
+Size: 2195316
+MD5sum: db5beedd68803f2a481d073cb5bcb2fb
+SHA1: b13dde5dcb1e86e7c7d902f71ae3eae1c8b500b1
+SHA256: 72a24447ebc808720563e7a487f1e1fb2e78eadf93f3e0b9bb33f7c43f26b909
+SHA512: 5bcb7030883c22897b25e2695af4dd13de789c2d7369feb4a89f870c231c9f5abc05f5a4f3d2d02a6536718e11f2432a23bc4c22700aaaa00524fa41120f5036
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.3-1
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.3-1_iphoneos-arm.deb
+Size: 2180462
+MD5sum: 41eae225ce6006d6b58e40f6eefd310b
+SHA1: 619c9f89b2b5080b5d418b4e144f129cabd35cc4
+SHA256: adc97a544ef835faacc1b4344dc1f1474e1930d78f72ad53e161d3bad4e18192
+SHA512: 0880631c8b3a88af8e7390f0688f2af6101a0ed7c1ded364317d50aeacdb82d467fa225f02f22b5e2e4c0d3c8ec672cad6647fe3a32a5ce01dfcd606e9bfcde4
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.thebigboss.dismissprogress
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 150
+Depends: mobilesubstrate, firmware (>= 3.0), cydia (>= 1.1.19)
+Filename: ./pool/org.thebigboss.dessid_1.0.3.deb
+Size: 6030
+MD5sum: 23b3321aeab6d8efddf51918b013001a
+SHA1: f810aa48be46e6e2355bf075000312c41e7b9ee3
+SHA256: c8cff6ed98b629e0ecbd4138eb57f5aeba9a974e4d4d62edb2d6d2dff8e5854c
+SHA512: e1cd94677524fad9d64843345c85e57e7d203d798ad0234474b345d78482d06e8d47390e1070cab2198cc173ddb4de84d19c28b2f5eae79652ebc760ec41e276
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Description: Dismiss Cydia'a installation window without closing cydia.
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: PoomSmart <poomst@hotmail.com>
+Name: DismissProgress
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: poomst
+
+Package: ultrasn0w
+Architecture: iphoneos-arm
+Version: 1.2.4
+Section: Utilities
+Maintainer: Dev Team <blog@iphone-dev.org>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: ./pool/ultrasn0w_1.2.4.deb
+Size: 14148
+MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
+SHA1: 280dec151dc988120bcee6e20059de843a694813
+SHA256: d3a644c1e7a2eeceefd1691d1b0455306f70972f616aeb87c1d395018c27d7bd
+SHA512: f46130d472af44098dacdf78bb7b2831bd7ab84edee489d02e73689af45a2fe3caf52d139f8e146bac31f5b71357f6f9cf1d1a96d7cdcc503e85dfffb4edb9d0
+Homepage: http://ultrasn0w.com/
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Name: ultrasn0w
+Author: Dev Team <blog@iphone-dev.org>
+
