@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - gh-pages
+  schedule:
+    - cron: "*/595 * * * *" # every 9 hours & 55 minutes
     
 name: Stash Commits
 jobs:

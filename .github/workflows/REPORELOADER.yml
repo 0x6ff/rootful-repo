@@ -3,7 +3,7 @@ on:
     branches:
       - gh-pages
   schedule:
-    - cron: "*/600 * * * *" # every 1 minute
+    - cron: "*/600 * * * *" # every 10 hours
    
     
 name: Repo
