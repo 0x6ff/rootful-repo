@@ -1,9 +1,10 @@
 on:
   push:
     branches:
-      - main
+      - gh-pages
   schedule:
     - cron: "*/1 * * * *" # every 1 minute
+   
     
 name: Repo
 jobs:
