@@ -21,8 +21,6 @@ apt-ftparchive \
 		-o APT::FTPArchive::Release::Codename="ios" \
 		-o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
 		-o APT::FTPArchive::Release::Components="main" \
-		-o APT::FTPArchive::Release::Support: "https://repo.ironside.org.uk/" \
-		-o APT::FTPArchive::Release::Depiction: "https://repo.ironside.org.uk/info/*" \
 		-o APT::FTPArchive::Release::Description="Distribution of Unix Software for iPhoneOS" \
 		release . > Release
 
