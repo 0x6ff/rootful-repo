@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - main
+    
+name: Stash Commits
+jobs:
+  make:
+    name: Stash
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          submodules: true
+          
+      - name: Run git stash
+        run: |
+          git stash
+
+      - name: Commit To Repo
+        uses: EndBug/add-and-commit@v7.0.0
+        with:
+          message: 'Add Automated Update'
+          signoff: true
