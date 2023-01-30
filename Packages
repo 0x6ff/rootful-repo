@@ -178,6 +178,24 @@ Description: Fake passcode for checkra1n on A11 devices running iOS 14+
 Name: FakePass
 Author: alexia <nyuszika7h@gmail.com>
 
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 188
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/net.cadoth.fakepass_0.1.1.deb
+Size: 14460
+MD5sum: 123318dbd6f8890854ba124790909ad1
+SHA1: 7b8cae0e6bc02e4aa5cb3a8dfc0343ed2b127f3e
+SHA256: 3f0afb850d283db4bb4e2699bf25411402aec3c429beb9d90a71be15c4cc656b
+SHA512: 3bda2357608604295c3baaf4631e5b0af7f942506f391cb2b56b782e3f083f59330224f5d77b171a9725977970fa95d565bb2e16341a9f4c9923ae03707de7dc
+Description: Fake passcode for checkra1n/palera1n on A10/A11 iOS 14+
+Name: FakePass
+Author: alexia <me@alexia.lol>
+
 Package: org.azreal.cydiaupdatesarch
 Architecture: iphoneos-arm
 Version: 1
