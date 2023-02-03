@@ -478,3 +478,20 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismisspro
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: poomst
 
+Package: ploosh.debstealer
+Architecture: iphoneos-arm
+Version: 1.0.0-3+debug
+Section: Utilities
+Maintainer: Ploosh
+Installed-Size: 172
+Depends: firmware (>= 11.0)
+Filename: ./pool/ploosh.debstealer_1.0.0-3debug_iphoneos-arm.deb
+Size: 155264
+MD5sum: 744b32ee2039e4e5d980ba46fc7b673d
+SHA1: 0ed1f82fa8627ed0d8156d70da9ce33194a18d63
+SHA256: ae438ba7df89dc2179557efb351c11e4602d06e2e1e9f9aa1db8e8f04ea79879
+SHA512: 72f3a22f07e8ae95b75be499f8f25874a22c562209d3c522de008fca00abc5d5b165ce205795ad96d53b70af3017a690840a7cc1fc3b6f98749643bb0da45629
+Description: steal debs
+Name: DebStealer
+Author: Ploosh
+
