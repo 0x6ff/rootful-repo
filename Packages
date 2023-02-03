@@ -512,3 +512,20 @@ Description: steal debs
 Name: DebStealer
 Author: Ploosh
 
+Package: ploosh.debstealer
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Utilities
+Maintainer: Ploosh
+Installed-Size: 8
+Depends: firmware (>= 11.0)
+Filename: ./pool/ploosh.debstealer_1.0.2_iphoneos-arm.deb
+Size: 866
+MD5sum: d39fd3b95e3c81b4eebeda0a8221beca
+SHA1: a185a41c5e3a5ba5faee20153442456b66614700
+SHA256: 8c9e4cb7d5cc5bc61f12a3fb7e3b9f1935859a146eaf53d6bb22f386cda43453
+SHA512: c0ef8c666981a5fa6990588640eb39a9d54d93938e9cb7c87aee6a7694e0de7976b7c818f885da06f1c7dbcac75fe802aa37816077cc9a1c2db6572965d5c3aa
+Description: steal debs
+Name: DebStealer
+Author: Ploosh
+
