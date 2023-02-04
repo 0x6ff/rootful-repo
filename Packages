@@ -105,6 +105,23 @@ Description: Cheyote ETA CheckerX uses SpringBoard.app from iOS 10.3.4. This is 
 Name: Cheyote ETA CheckerX
 Author: Azreal and afastaudir8
 
+Package: etacheckerX
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: important
+Section: Dangerous Tweaks
+Maintainer: Azreal and afastaudir8
+Conflicts: lol.whitetailani.cement
+Filename: ./pool/etacheckerX_1.0.3_iphoneos-arm.deb
+Size: 5409514
+MD5sum: 6d395d1e5860ff2dd0941be668a13736
+SHA1: 28eb3fba842d24194ba3be31a96c11bbd1729de5
+SHA256: 1695c2f0a4ca41a4e38533848aabcb4507005ad1fc3598e109106a9efecccd81
+SHA512: a6ba2d3c148fe1241e37970fcba4a5c42d2a4046cea0fe220caad1faa4dd157a2602f1be6a585fa9c018f393de9da6903ac354d14d5666eda35a0906e22008a6
+Description: Cheyote ETA CheckerX uses SpringBoard.app from iOS 10.3.4. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install. Only works on iOS 10.3.x.
+Name: Cheyote ETA CheckerX Legacy
+Author: Azreal and afastaudir8
+
 Package: etachecker
 Architecture: iphoneos-arm
 Version: 1.2
