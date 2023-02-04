@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="Hephaestus/Ironside" property="og:title" />
+  <meta content="Distribution of Unix software for iPhoneOS" property="og:description" />
+  <meta content="https://repo.ironside.org.uk" property="og:url" />
+  <meta content="https://repo.ironside.org.uk/CydiaIcon.png" property="og:image" />
+  <meta content="#1d1e24" data-react-helmet="true" name="theme-color" />
+  <link rel="icon" type="image/x-icon" href="https://repo.ironside.org.uk/CydiaIcon.png">
+  <title>Hephaestus/Ironside</title>
+  <link rel="stylesheet" href="https://repo.ironside.org.uk/css/styles.css">
+  <link rel="stylesheet" href="https://repo.ironside.org.uk/css/repo.css">
+</head>
+<body>
+<h1 id="rainbow">Recovery instructions for ETA Checker Revamped</h1>
+<p>NOTE: These instructions will NOT work for ETA Checker Legacy as that tweak uses a different way to harm your device!</p>
+<p>NOTE: Please make sure you have a macOS (10.15+) or Linux machine (Debian based preferably)</p>
+<p>NOTE: These instructions will also NOT work on non-checkm8 devices (A12+). If your device is above this, restore it.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
+<p>Step 1: Clone Nathan's SSHRD Script with <code>git clone https://github.com/verygenericname/SSHRD_Script.git --recursive</code>. Add <code>sudo</code> to the start of the command if using Linux.</code></p>
+<p>&nbsp;</p> 
+<p>Step 2: Once Git has finished cloning the repository, cd into it with <code>cd SSHRD_Script</code>.</p>
+<p>&nbsp;</p> 
+<p>Step 3: Run <code>./sshrd.sh "ios version"</code> without the quotes and ios version being your iOS version. Add <code>sudo</code> to the start of the command if using Linux.</p>
+<p>NOTE: This may take a while as it is generating a ramdisk for your device. Be patient.</p>
+<p>&nbsp;</p> 
+<p>Step 4. Run <code>./sshrd.sh boot</code> to boot the SSH ramdisk. As with the previous steps, add <code>sudo</code> to the start of the command if using Linux.</p>
+<p>NOTE: It is normal that you're seeing text on the screen. Ignore it.</p>
+<p>&nbsp;</p> 
+<p>Step 5. Run <code>./sshrd.sh ssh</code> to gain SSH access to your device. Add <code>sudo</code> to the start of the command if using Linux.</p>
+<p>&nbsp;</p> 
+<p>Step 6. Run <code>mount_filesystems /mnt1</code>. <code>sudo</code> will no longer be needed after the last step.</p>
+<p>&nbsp;</p> 
+<p>Step 7. Run <code>mv /mnt1/Trolled.plist Info.plist</code></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
+<p>Your device should now be fixed! Press CTRL+C to exit the SSH connection and then run <code>./sshrd.sh reboot</code>.</p>
+<p>If you still experience a bootloop, please ask for support in the Hephaestus/Ironside Discord server found on the homepage.</p>
+</body>
+</html>html>

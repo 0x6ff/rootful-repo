@@ -1,6 +1,7 @@
-
-
 #!/bin/bash
+
+# OFFICIAL HEPHAESTUS/IRONSIDE REPO RELOAD SCRIPT
+# VERSION 1.20 - CREDIT TO AMY AND AZREAL.
 script_full_path=$(dirname "$0")
 cd $script_full_path || exit 1
 
