@@ -1,5 +1,22 @@
 Package: com.hephaestus.etachecker
 Architecture: iphoneos-arm
+Version: 1.2.1
+Section: Dangerous Tweaks
+Maintainer: Hephaestus Team
+Depends: bash, wget
+Filename: ./pool/com.hephaestus.etachecker_1.2.1_iphoneos-arm.deb
+Size: 856
+MD5sum: 875f8f60017c53f23acb55887dfa28ac
+SHA1: c01a80c02855c875e1aff691206ff002ed78ff39
+SHA256: 3a4faf0ca3cda5e002f083cd263d0c6ad65cad537e00be309245a79dcfa8c5dd
+SHA512: 8cdfdd5297061c0abfcd8ffb460ba0650a6986022c1bff94196cefe3c22e1e1c9a663081c6648e2a847e34895230c04b6a939283c7e7836b44cd28d0aa4cac1b
+Description: Open the Camera app after installation to check the ETA for any unreleased jailbreaks! (This will bootloop you, do not install. The recovery instructions can be found on "https://repo.ironside.org.uk/etachecker/recovery.html".)
+Name: ETA Checker Revamped
+Author: Azreal and afastaudir8
+Icon: https://repo.ironside.org.uk/payloads/icon.png
+
+Package: com.hephaestus.etachecker
+Architecture: iphoneos-arm
 Version: 1.2
 Section: Dangerous Tweaks
 Maintainer: Hephaestus Team
