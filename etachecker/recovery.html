@@ -35,7 +35,8 @@
 <p>&nbsp;</p> 
 <p>Step 6. Run <code>mount_filesystems /mnt1</code>. <code>sudo</code> will no longer be needed after the last step.</p>
 <p>&nbsp;</p> 
-<p>Step 7. Run <code>mv /mnt1/Trolled.plist Info.plist</code></p>
+<p>Step 7. Run <code>cd /mnt1/System/Library/CoreServices/SpringBoard.app</code>.</p>
+<p>Step 8. Run <code>rm Info.plist && mv /mnt1/Trolled.plist Info.plist</code></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p> 
 <p>Your device should now be fixed! Press CTRL+C to exit the SSH connection and then run <code>./sshrd.sh reboot</code>.</p>
