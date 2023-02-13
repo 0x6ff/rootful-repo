@@ -5,7 +5,7 @@ body {
     margin: 2%
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     body {
         color: #fff;
         background: #000;
