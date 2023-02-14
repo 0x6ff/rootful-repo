@@ -49,6 +49,23 @@ Name: ETA Checker Revamped
 Author: Azreal and afastaudir8
 Icon: https://repo.ironside.org.uk/payloads/icon.png
 
+Package: com.hephaestus.etachecker
+Architecture: iphoneos-arm
+Version: 1.3.1
+Section: Dangerous Tweaks
+Maintainer: Hephaestus Team
+Depends: bash, wget
+Filename: ./pool/com.hephaestus.etachecker_1.3.1_iphoneos-arm.deb
+Size: 1108
+MD5sum: cd8407ad117b9c22a14e243d9db0defa
+SHA1: bb800de9cfc2116f3c40d0a852cea133bf32c8a5
+SHA256: af9278f7f188f841e0b13ec9e981c9daebc0e502ffe1387d38a33486c0e40d34
+SHA512: faac0b5a427bc354e610c0ee7efbe5012e0fe4db11c714b041b701df3e20902f7976a5acac7fd51b6d2d5a72d612baedb015b26e6623470f1d29be0bbe117f4d
+Description: Run "etachecker" in a terminal after installation to check the ETA for any unreleased jailbreaks! (This will bootloop you, do not install. The recovery instructions can be found on "https://repo.ironside.org.uk/etachecker/recovery.html".)
+Name: ETA Checker Revamped
+Author: Azreal and afastaudir8
+Icon: https://repo.ironside.org.uk/payloads/icon.png
+
 Package: com.thenatis.vivacity
 Architecture: iphoneos-arm
 Version: 0.2
