@@ -88,40 +88,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
-Package: etacheckerX
-Architecture: iphoneos-arm
-Version: 1.0.3
-Priority: important
-Section: Dangerous Tweaks
-Maintainer: Azreal and afastaudir8
-Conflicts: lol.whitetailani.cement
-Filename: ./pool/etacheckerX_1.0.3_iphoneos-arm.deb
-Size: 5409514
-MD5sum: 6d395d1e5860ff2dd0941be668a13736
-SHA1: 28eb3fba842d24194ba3be31a96c11bbd1729de5
-SHA256: 1695c2f0a4ca41a4e38533848aabcb4507005ad1fc3598e109106a9efecccd81
-SHA512: a6ba2d3c148fe1241e37970fcba4a5c42d2a4046cea0fe220caad1faa4dd157a2602f1be6a585fa9c018f393de9da6903ac354d14d5666eda35a0906e22008a6
-Description: Cheyote ETA CheckerX uses SpringBoard.app from iOS 10.3.4. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install. Only works on iOS 10.3.x.
-Name: Cheyote ETA CheckerX Legacy
-Author: Azreal and afastaudir8
-
-Package: etachecker
-Architecture: iphoneos-arm
-Version: 1.2
-Priority: important
-Section: Dangerous Tweaks
-Maintainer: Azreal
-Conflicts: lol.whitetailani.cement
-Filename: ./pool/etachecker_1.2_iphoneos-arm.deb
-Size: 676770
-MD5sum: 77f26954e7000dc68a653007937d21a1
-SHA1: c0c76009cca66b308578e7902c4ccc641b1fd748
-SHA256: 6922dbc4a464ab6034a00f31c77dcf34833a0117898a282fd85f99b75b82532d
-SHA512: 01f58b9dea1a8414bc051b108203e3f4ee37415faec33fd1357dba8535f6aab5058c3bd7df5412a6969dcf28783e1ffe9961aa2f08a18698bb0f90d501035713
-Description: Cheyote ETA Checker compiled entirely on an iPhone 8 on iOS 13. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install.
-Name: Cheyote ETA Checker
-Author: Azreal
-
 Package: h.ryan.youtubereborn
 Architecture: iphoneos-arm
 Version: 4.0.9
