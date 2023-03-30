@@ -40,31 +40,6 @@ Icon: file:///Applications/Cydia.app/Icon-60.png
 
 Package: cydia
 Architecture: iphoneos-arm
-Version: 1.1.36-4
-Priority: important
-Section: Packaging
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 6496
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: ./pool/cydia_1.1.36-4_iphoneos-arm.deb
-Size: 1333614
-MD5sum: 811c1642f40c858adbc2e1eada205eb7
-SHA1: 78d6f2b2daabff270daa28ad60c4ca751508bd90
-SHA256: 49790811ed5bf00dc09de5ffb8e34f7ea2967fca498d8dda1f4a4752fdf2c53f
-SHA512: ac469e61e0aad6c168b2d451211f31720120091206c0d42459091a293ea3a4fde9ae163a864547e9aedca07ebeccd42e9c83d48de03a8abf8b2628f3ec7e72f1
-Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
-Tag: purpose::uikit, role::enduser
-Name: Cydia Installer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-
-Package: cydia
-Architecture: iphoneos-arm
 Version: 1.1.36-5
 Priority: important
 Section: Packaging
