@@ -38,31 +38,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
-Package: cydia
-Architecture: iphoneos-arm
-Version: 1.1.36-5
-Priority: important
-Section: Packaging
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 6496
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 12.0), org.azreal.cydiaupdatesarch
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: ./pool/cydia_1.1.36-5_iphoneos-arm.deb
-Size: 1333632
-MD5sum: adba6944177bc626d2b34acc7633659d
-SHA1: 4cf81214ffb44e6e0d66ed83b7987436bfd0c823
-SHA256: e9ec4e3bf8c2b60f2ae680cad15e5ece6057008dc0f610bc2b7f989b0a044047
-SHA512: 34b887ed5de2bb05714e9eb3c88edf15c0dd814283ea2d09b0c4adb46a0e92255e1b04ce21908caefcd0fe297be5f57a664f8a36b1737d181754b801cf8b6b83
-Description: graphical iPhone front-end for APT. Adds cydiaupdates architecture and repo to ensure latest patch is installed.
-Tag: purpose::uikit, role::enduser
-Name: Cydia Installer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-
 Package: h.ryan.youtubereborn
 Architecture: iphoneos-arm
 Version: 4.0.9
